@@ -1,0 +1,152 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.img_and_text{
+    display: flex;
+}
+
+.img_and_text img{
+    padding-right: 10px;
+}
+
+.center{
+    text-align: center;
+    font-size: 45px;
+}
+
+.center2{
+    text-align: center;
+}
+
+polosa{
+    text-align: center;
+}
+
+
+.catalog{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.product {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 5%;
+    font-size: 20px;
+}
+
+.product img {
+    width: 350px;
+    height: 250px;
+}
+
+.product h3{
+    font-size: 20px;
+}
+h2 {
+    position: relative;
+    background-color: #00CA87;
+    padding: 13px;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+    height: 36px;
+}
+
+h2 .sale {
+    position: absolute;
+    top: 0px; 
+    left: -15px; 
+    width: 150px; 
+    height: 62px;
+}
+
+
+h2 .sale2{  
+    position: absolute;
+    top: -2px; 
+    left: -15px; 
+    width: 150px; 
+    height: 63px;
+}
+
+.with_sale{
+    text-align: right;
+    padding-right: 80px;
+}
+
+.with_sale2 {  
+    background-color: #6B0086;
+    text-align: right;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+
+h2:hover{
+    background-color: #3bffbe;
+    color: rgb(86, 86, 86) ;
+}
+
+h2::focus{
+    background-color: #008b5d;
+    color: black ;
+}
+
+span{
+    color: #FFA60C;
+}
+
+
+
+a{
+    color: white;
+    font-size: 30px;
+}
+
+.footer_block_1{
+    background-color: #E14F00;
+    width: 400px;
+    border-radius: 0 50px 50px 0;
+    font-size: 25px;
+    padding: 8% 2%;
+    text-align: center;
+}
+
+.block_2_and_3{
+    background: linear-gradient(180deg, #E14F00 47%, #7B2B00 100%);
+    border-radius: 50px;
+    width: 330px;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.block_2_and_3 h2{
+    text-align: center;
+}
+
+.footer_block_2_and_3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+footer a{
+    margin-right: 20px;
+}
+
+footer img:hover{
+    opacity: 0.5;
+    transition: 0.4s;
+}
+
+.block_3{
+    padding: 50px;
+    font-size: 25px;
+}
