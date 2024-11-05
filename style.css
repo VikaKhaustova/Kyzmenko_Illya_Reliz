@@ -30,6 +30,7 @@ polosa{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+     margin: 2% 5%;
 }
 .product {
     width: 350px;
